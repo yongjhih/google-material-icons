@@ -35,3 +35,5 @@ build/
 
 # mac ds store file
 .DS_Store
+
+.*.sw[p-z]

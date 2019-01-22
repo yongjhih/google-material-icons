@@ -5,7 +5,7 @@
 
     <!-- regular -->
     <font
-        app:font="@font/font_google_material"
+        app:font="@raw/font_google_material"
         app:fontStyle="normal"
         app:fontWeight="400"
         />
