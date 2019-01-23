@@ -3,13 +3,24 @@
 [![JitPack](https://img.shields.io/github/tag/yongjhih/google-material-font.svg?label=JitPack)](https://jitpack.io/#yongjhih/google-material-font)
 [![Build Status](https://travis-ci.org/yongjhih/google-material-font.svg)](https://travis-ci.org/yongjhih/google-material-font)
 
-```xml
-android:text="@string/gmd_help_outline"
-```
+
+You can easily to add an icon by TextView with google material icons:
 
 ```xml
-app:fontFamily="@font/google_material"
+<TextView
+  ...
+  android:text="@string/gmd_help_outline"
+  app:fontFamily="@font/google_material"
+/>
 ```
+
+That's it.
+
+It's quiet lightweight and better performance without JVM reflection.
+
+If you want to do inline text, you can use [`Resources.getString()`](https://developer.android.com/guide/topics/resources/string-resource#FormattingAndStyling) or just using 3rd string template engine such as [`square/phrase`](https://github.com/square/phrase)
+
+ref. https://medium.com/square-corner-blog/android-string-formatting-with-phrase-33b7c8707e18
 
 ![](art/screenshot.png)
 
