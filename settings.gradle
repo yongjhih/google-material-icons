@@ -1,2 +1,2 @@
 include ':app'
-include ':google-material-font'
+include ':google-material-icons'

@@ -10,15 +10,16 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 14
         targetSdkVersion 28
+        vectorDrawables.useSupportLibrary = true
     }
 }
 
 dependencies {
     implementation "com.android.support:support-v4:$support_version"
     implementation "com.android.support:appcompat-v7:$support_version"
-    implementation project(':google-material-font')
+    implementation project(':google-material-icons')
     //implementation 'com.google.android:flexbox:1.1.0' // andoridx
     implementation 'com.google.android:flexbox:1.0.0' // support
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
