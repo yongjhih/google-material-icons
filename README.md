@@ -3,6 +3,10 @@
 [![JitPack](https://img.shields.io/github/tag/yongjhih/google-material-icons.svg?label=JitPack)](https://jitpack.io/#yongjhih/google-material-icons)
 [![Build Status](https://travis-ci.org/yongjhih/google-material-icons.svg)](https://travis-ci.org/yongjhih/google-material-icons)
 
+![](art/screenshot.png)
+
+Imports vector drawable icons.
+
 ## Usage
 
 ```xml
@@ -12,7 +16,14 @@
 />
 ```
 
-![](art/screenshot.png)
+And you can also apply color tint:
+
+```xml
+<ImageView
+  app:srcCompat="@drawable/ic_wifi_black_24dp"
+  android:tint="@android:color/yellow"
+/>
+```
 
 ## Installation
 
