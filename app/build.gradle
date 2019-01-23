@@ -25,5 +25,4 @@ dependencies {
     implementation "com.android.support:design:$support_version"
 }
 
-apply plugin: 'com.github.dcendents.android-maven'
 apply from: 'javadoc.gradle'
