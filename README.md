@@ -3,10 +3,15 @@
 [![JitPack](https://img.shields.io/github/tag/yongjhih/google-material-font.svg?label=JitPack)](https://jitpack.io/#yongjhih/google-material-font)
 [![Build Status](https://travis-ci.org/yongjhih/google-material-font.svg)](https://travis-ci.org/yongjhih/google-material-font)
 
+```xml
+android:text="@string/gmd_help_outline"
 ```
-@string/gmd_help_outline
-@font/google_material
+
+```xml
+app:fontFamily="@font/google_material"
 ```
+
+![](art/screenshot.png)
 
 ## Installation
 
